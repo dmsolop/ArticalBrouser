@@ -17,7 +17,10 @@ class ContentViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        myWebView.loadRequest(URLRequest(url: (article?.content_url)!))
+        if let url = article?.content_url {
+            myWebView.loadRequest(URLRequest(url: url))
+        }
+        
     }
 
  

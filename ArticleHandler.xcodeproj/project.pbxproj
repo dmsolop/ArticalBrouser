@@ -21,7 +21,6 @@
 		04797D9C207F802600D21F08 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04797D9B207F802600D21F08 /* ArticleCell.swift */; };
 		04797D9E207F96D600D21F08 /* Claus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04797D9D207F96D600D21F08 /* Claus.swift */; };
 		04797DA0207FA4D700D21F08 /* QueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04797D9F207FA4D700D21F08 /* QueryManager.swift */; };
-		04797DA32080CEE800D21F08 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04797DA22080CEE800D21F08 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -212,7 +211,6 @@
 			files = (
 				04797D75207F6AEE00D21F08 /* LaunchScreen.storyboard in Resources */,
 				04797D6D207F6AEB00D21F08 /* Main.storyboard in Resources */,
-				04797DA32080CEE800D21F08 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

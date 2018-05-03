@@ -21,8 +21,6 @@ class ImageAccessManager {
         let stringFromURL =  urlString.path
         let fileName = unicumNameByMD5(string: stringFromURL)
         let fileURL = documentsUrl.appendingPathComponent(fileName)
-//        if FileManager.default.fileExists(atPath: fileURL.path) {
-//        }
         
         self.downloadTask = session.downloadTask(
             with: urlString as URL, completionHandler: { url, response, error in
